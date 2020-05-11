@@ -4,4 +4,4 @@
 ## CSS Syntax
 A CSS rule set contains a selector and a declaration block.
 
-<img src=".JPG" alt="synatx"/>
+<img src="syntax.JPG" alt="synatx"/>
