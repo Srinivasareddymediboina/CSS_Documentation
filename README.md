@@ -32,7 +32,7 @@ There are several different types of selectors in CSS.
 <style>  
 p{  
     text-align: center;  
-    color: green;  
+    color: red;  
 }   
 </style>  
 </head>  
@@ -44,4 +44,4 @@ p{
 </html> 
 ```
 ### Output:
-<img src="images/syntax.JPG" alt="synatx"/>
+<img src="images/ele.JPG" alt="synatx"/>
