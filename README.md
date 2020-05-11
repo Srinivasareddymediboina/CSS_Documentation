@@ -21,3 +21,25 @@ There are several different types of selectors in CSS.
 1. **CSS Class Selector**
 1. **CSS Universal Selector**
 1. **CSS Group Selector**
+
+1) CSS Element Selector
+The element selector selects the HTML element by name.
+
+```
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+p{  
+    text-align: center;  
+    color: green;  
+}   
+</style>  
+</head>  
+<body>  
+<p>Welcome to APSSDC</p>  
+<p id="para1">Gov of Andhra Pradesh</p>  
+<p>Vijayawada!</p>  
+</body>  
+</html> 
+```
