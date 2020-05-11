@@ -4,4 +4,6 @@
 ## CSS Syntax
 A CSS rule set contains a selector and a declaration block.
 
-<img src="syntax.JPG" alt="synatx"/>
+<img src="images/syntax.JPG" alt="synatx"/>
+**Selector** Selector indicates the HTML element you want to style.
+**DeclarationBlock** The declaration block can contain one or more declarations separated by a semicolon
