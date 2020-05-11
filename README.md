@@ -16,8 +16,8 @@ A **CSS** rule set contains a selector and a declaration block.
 
 There are several different types of selectors in CSS.
 
-**1. CSS Element Selector**
-**1. CSS Id Selector**
-**1. CSS Class Selector**
-**1. CSS Universal Selector**
-**1. CSS Group Selector**
+1. **CSS Element Selector**
+1. **CSS Id Selector**
+1. **CSS Class Selector**
+1. **CSS Universal Selector**
+1. **CSS Group Selector**
