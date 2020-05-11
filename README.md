@@ -46,3 +46,69 @@ p{
 ### Output:
 ____
 <img src="images/ele.JPG" alt="synatx"/>
+
+
+next →← prev
+CSS Selector
+CSS selectors are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc.
+
+There are several different types of selectors in CSS.
+
+CSS Element Selector
+CSS Id Selector
+CSS Class Selector
+CSS Universal Selector
+CSS Group Selector
+1. CSS Element Selector
+The element selector selects the HTML element by name.
+
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+p{  
+    text-align: center;  
+    color: blue;  
+}   
+</style>  
+</head>  
+<body>  
+<p>This style will be applied on every paragraph.</p>  
+<p id="para1">Me too!</p>  
+<p>And me!</p>  
+</body>  
+</html>    
+Test it Now
+Output:
+
+This style will be applied on every paragraph.
+
+Me too!
+
+And me!
+
+**2. CSS Id Selector**
+The **id selector** selects the id attribute of an HTML element to select a specific element. And it is chosen to select a single, **unique** element.
+
+* It is written with the hash character (#)
+```
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+#para1 {  
+    text-align: center;  
+    color: red;  
+}  
+</style>  
+</head>  
+<body>  
+<p id="para1">Hello EveryOne..!</p>  
+<p>Welcome to Frontend CSS Class.</p>  
+</body>  
+</html>
+```
+### Output:
+___
+<img src="images/id.JPG" alt="synatx"/>
