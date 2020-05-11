@@ -22,8 +22,8 @@ There are several different types of selectors in CSS.
 1. **CSS Universal Selector**
 1. **CSS Group Selector**
 
-1) CSS Element Selector
-The element selector selects the HTML element by name.
+**1) CSS Element Selector**
+* The element selector selects the HTML element by name.
 
 ```
 <!DOCTYPE html>  
@@ -43,3 +43,5 @@ p{
 </body>  
 </html> 
 ```
+### Output:
+<img src="images/syntax.JPG" alt="synatx"/>
