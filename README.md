@@ -182,7 +182,7 @@ ___
 There are three ways to insert CSS in HTML documents.
 
 * Inline CSS
-* Internal CSS
+* Internal CSS (or) Embedded CSS
 * External CSS
 
 ## 1. Inline CSS
@@ -218,7 +218,49 @@ There are three ways to insert CSS in HTML documents.
 ___
 <img src="images/in.JPG" alt="inline"/>
 
-## 2.Internal CSS
+## 2.Internal CSS (or) Embedded CSS
 
-The internal style sheet is used to add a unique style for a single document. It is defined in <head> section of the HTML page inside the <style> tag.
+The internal style sheet is used to add a unique style for a single document. It is defined in **head** section of the HTML page inside the **style** tag.
+
+**Example**
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+			body {
+			  background-color: linen;
+			}
+
+			h1 {
+			  color: red;
+			  margin-left: 40px;
+			}
+			#vis{
+				color: green;
+			  text-align: center;
+			  font-size:40px;
+
+			}
+
+	</style>
+</head>
+	<body>
+
+	<h1>Andhra Pradesh State Skill Development Corporation</h1>
+	<h2 id='vis'>Gov of Andhra Padesh</h2>
+	<p>APSSDC, Vijayawada</p>
+
+
+	</body>
+</html>
+```
+
+### Output:
+___
+
+<img src="images/internal.JPG" alt="inline"/>
+
+
 
