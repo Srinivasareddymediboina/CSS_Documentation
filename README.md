@@ -79,4 +79,55 @@ ___
 3. **CSS Class Selector**
 The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.
 
-**Note:** ```A class name should not be started with a number.```
+**Note:A class name should not be started with a number.**
+```
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+.center {  
+    text-align: center;  
+    color: orange;
+    font-size: 35px;
+    font-style: bold;
+
+}  
+</style>  
+</head>  
+<body>  
+<h1 class="center">Andhra Pradesh State Skill Development Corporation</h1>  
+<p class="center">Gov of Andhra Pradesh</p>   
+</body>  
+</html>  
+```
+### Output:
+___
+<img src="images/class.JPG" alt="synatx"/>
+
+4. **CSS Universal Selector**
+The universal selector is used as a wildcard character. It selects all the elements on the pages.
+
+```
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+* {  
+    text-align: left;  
+    color: red;
+    font-size: 35px;
+    font-style: bold;
+
+}  
+</style>  
+</head>  
+<body>  
+<h1 class="center">Andhra Pradesh State Skill Development Corporation</h1>  
+<p class="center">Gov of Andhra Pradesh</p>   
+</body>  
+</html>
+```
+### Output:
+___
+<img src="images/uni.JPG" alt="synatx"/>
+
