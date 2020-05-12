@@ -131,10 +131,11 @@ The universal selector is used as a wildcard character. It selects all the eleme
 ___
 <img src="images/uni.JPG" alt="synatx"/>
 
-5. **The CSS Universal Selector**
-The universal selector **(*)** selects all HTML elements on the page.
 
-Let's see the CSS code without group selector.
+5. **The CSS Universal Selector**
+* The universal selector **(*)** selects all HTML elements on the page.
+
+    * Let's see the CSS code without group selector.
 
 ```
 h1 {  
