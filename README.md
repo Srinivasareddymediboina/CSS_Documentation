@@ -32,7 +32,8 @@ There are several different types of selectors in CSS.
 <style>  
 p{  
     text-align: center;  
-    color: green;  
+    color: green;
+    font-size: 35px;
 }   
 </style>  
 </head>  
@@ -58,7 +59,8 @@ The **id selector** selects the id attribute of an HTML element to select a spec
 <style>  
 #para1 {  
     text-align: center;  
-    color: red;  
+    color: red;
+    font-size: 40px;
 }  
 </style>  
 </head>  
