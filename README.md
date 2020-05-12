@@ -3,8 +3,9 @@
 **CSS** stands for Cascading Style Sheets. Which is used to describe the look and formatting of a document written in markup language, **CSS** allows you to apply styles to web pages.
 ### CSS Syntax
 A **CSS** rule set contains a selector and a declaration block.
+___
 <img src="images/selectors.gif" alt="synatx"/>
-
+___
 * **Selector:** Selector indicates the HTML element you want to style. 
 * **DeclarationBlock:** The declaration block can contain one or more declarations separated by a semicolon.
 * **Property:** A Property is a type of attribute of HTML element. It could be color, border etc.
@@ -73,3 +74,9 @@ The **id selector** selects the id attribute of an HTML element to select a spec
 ### Output:
 ___
 <img src="images/ids.JPG" alt="synatx"/>
+___
+
+3. **CSS Class Selector**
+The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.
+
+**Note:** ```A class name should not be started with a number.```
