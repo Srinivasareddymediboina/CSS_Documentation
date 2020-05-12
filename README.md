@@ -135,41 +135,48 @@ The universal selector is used as a wildcard character. It selects all the eleme
 ```
 ### Output:
 ___
-<img src="images/uni.JPG" alt="synatx"/>
+<img src="images/universal.JPG" alt="synatx"/>
 
 
-5. **The CSS Universal Selector**
+## 5. CSS Group Selector
 
-* The universal selector **(*)** selects all HTML elements on the page.
+The grouping selector is used to select all the elements with the same style definitions.
 
-    * Let's see the CSS code without group selector.
+* Grouping selector is used to minimize the code. 
+* Commas are used to separate each selector in grouping
 
 ```
 h1 {  
     text-align: center;  
     color: green;
-    font-style: bold; 
+    font-style: bold;
+     background: #AAFA54
+     
 }  
 h2 {  
     text-align: center;  
     color: green;
-    font-style: bold; 
+    font-style: bold;
+     background: #AAFA54
 }  
 p {  
     text-align: center;  
     color: green;
     font-style: bold;
+     background: #AAFA54
 } 
 ``` 
 **Example Program**
-```<!DOCTYPE html>  
+```
+<!DOCTYPE html>  
 <html>  
 <head>  
 <style>  
-h1, h2, p {  
+h1, h2, p,body {  
     text-align: center;  
-    color: green;
+    color: blue;
     font-style: bold;
+    background: #AAFA54;
 }  
 </style>  
 </head>  
@@ -180,9 +187,10 @@ h1, h2, p {
 </body>  
 </html>
 ```
+
 ### Output:
 ___
-<img src="images/group.JPG" alt="synatx"/>
+<img src="images/unis.JPG" alt="synatx"/>
 
 ## Kinds of CSS
 
@@ -199,7 +207,8 @@ There are three ways to insert CSS in HTML documents.
 **Example:**
 
 ```
-<p style = "color:green; font-size:50px; 
+<body style="background: #F3FF62 ">
+<p style = "color:red; font-size:40px; 
             font-style:italic; text-align:center;"> 
             APSSDC, Vijayawada
         </p> 
@@ -212,18 +221,18 @@ There are three ways to insert CSS in HTML documents.
         <title>Inline CSS</title> 
     </head> 
       
-    <body> 
-    <h1>Web Development</h1> 
-    <p style = "color:green; font-size:40px; 
+    <body style="background: #F3FF62 "> 
+    <h1 >Web Development</h1> 
+    <p style = "color:red; font-size:40px; 
             font-style:italic; text-align:center;"> 
             APSSDC, Vijayawada
         </p>  
     </body> 
-</html>    
+</html>     
 ```
 ### Output:
 ___
-<img src="images/in.JPG" alt="inline"/>
+<img src="images/inlines.JPG" alt="inline"/>
 
 ## 2.Internal CSS (or) Embedded CSS
 
