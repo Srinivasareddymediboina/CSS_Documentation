@@ -70,4 +70,4 @@ The **id selector** selects the id attribute of an HTML element to select a spec
 ```
 ### Output:
 ___
-<img src="images/id.JPG" alt="synatx"/>
+<img src="images/ids.JPG" alt="synatx"/>
