@@ -185,6 +185,7 @@ There are three ways to insert CSS in HTML documents.
 * External CSS
 
 1. **Inline CSS**
+
 **Inline CSS** is used to apply **CSS** on a single line or element.
 
 **Example:**
