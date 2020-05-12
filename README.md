@@ -218,3 +218,7 @@ There are three ways to insert CSS in HTML documents.
 ___
 <img src="images/in.JPG" alt="inline"/>
 
+## 2.Internal CSS
+
+The internal style sheet is used to add a unique style for a single document. It is defined in <head> section of the HTML page inside the <style> tag.
+
