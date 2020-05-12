@@ -205,14 +205,15 @@ There are three ways to insert CSS in HTML documents.
     </head> 
       
     <body> 
-        <p style = "color:green; font-size:50px; 
-                font-style:italic; text-align:center;"> 
-            APSSDC, Vijayawada 
-        </p> 
+    <h1>Web Development</h1> 
+    <p style = "color:green; font-size:40px; 
+            font-style:italic; text-align:center;"> 
+            APSSDC, Vijayawada
+        </p>  
     </body> 
 </html>    
 ```
 ### Output:
 ___
-<img src="images/inline.JPG" alt="inline"/>
+<img src="images/in.JPG" alt="inline"/>
 
