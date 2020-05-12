@@ -190,7 +190,7 @@ There are three ways to insert CSS in HTML documents.
 **Example:**
 
 ```
-<p style = "color:#009900; font-size:50px; 
+<p style = "color:green; font-size:50px; 
             font-style:italic; text-align:center;"> 
             APSSDC, Vijayawada
         </p> 
@@ -204,9 +204,9 @@ There are three ways to insert CSS in HTML documents.
     </head> 
       
     <body> 
-        <p style = "color:#009900; font-size:50px; 
+        <p style = "color:green; font-size:50px; 
                 font-style:italic; text-align:center;"> 
-            GeeksForGeeks 
+            APSSDC, Vijayawada 
         </p> 
     </body> 
 </html>    
