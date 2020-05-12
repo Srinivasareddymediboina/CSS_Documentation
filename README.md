@@ -154,7 +154,7 @@ p {
     font-style: bold;
 } 
 ``` 
-
+**Example Program**
 ```<!DOCTYPE html>  
 <html>  
 <head>  
@@ -178,4 +178,40 @@ ___
 <img src="images/group.JPG" alt="synatx"/>
 
 ## Kinds of CSS
+There are three ways to insert CSS in HTML documents.
+
+* Inline CSS
+* Internal CSS
+* External CSS
+
+1. **Inline CSS**
+**Inline CSS** is used to apply **CSS** on a single line or element.
+
+**Example:**
+
+```
+<p style = "color:#009900; font-size:50px; 
+            font-style:italic; text-align:center;"> 
+            APSSDC, Vijayawada
+        </p> 
+```
+**Example Program**
+```
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Inline CSS</title> 
+    </head> 
+      
+    <body> 
+        <p style = "color:#009900; font-size:50px; 
+                font-style:italic; text-align:center;"> 
+            GeeksForGeeks 
+        </p> 
+    </body> 
+</html>    
+```
+### Output:
+___
+<img src="images/inline.JPG" alt="inline"/>
 
