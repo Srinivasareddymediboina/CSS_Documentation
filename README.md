@@ -323,6 +323,67 @@ ___
 <img src="images/external.JPG" alt="synatx"/>
 
 
+## Various Kinds of Properties along with values
+
+The Some of properties is given below.
+
+* This css code is writen in .css file ex:**styles.css**
+```
+.c{
+	color: yellow;
+	width: 80%;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 3px 3px 3px  #F7FA08 ;
+	border-radius: 100px;
+	text-shadow: 2px 2px 2px blue;
+	height: 50px;
+	background:#90F4FC;
+	font-style: bold;
+	font-size: 35px;
+
+}
+#vis{
+	color: #0C26FB ;
+	width: 80%;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #F1FA95;
+	text-align: center;
+	box-shadow: 3px 3px 3px  #1C33F3  ;
+	border-radius: 100px;
+	text-shadow: 2px 2px 1px red ;
+	height: 350px;
+	font-style: bold;
+	font-size: 35px;
+
+}
+```
+
+**Example Program**
+```
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="css/styles.css"/> 
+    </head> 
+  
+    <body> 
+        
+            <div class ="c">APSSDC, Web Development Team</div> 
+            <div id ="vis"> Organized by Gov of AP</div>
+        
+    </body> 
+</html> 
+```
+
+### Output:
+___
+<img src="images/example.JPG" alt="example"/>
+
 
 
 
