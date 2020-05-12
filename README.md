@@ -176,3 +176,6 @@ h1, h2, p {
 ### Output:
 ___
 <img src="images/group.JPG" alt="synatx"/>
+
+## Kinds of CSS
+
