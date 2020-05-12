@@ -46,7 +46,7 @@ p{
 ```
 ### Output:
 ____
-<img src="images/ele.JPG" alt="synatx"/>
+<img src="images/el.JPG" alt="synatx"/>
 
 **2. CSS Id Selector**
 The **id selector** selects the id attribute of an HTML element to select a specific element. And it is chosen to select a single, **unique** element.
