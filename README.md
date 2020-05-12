@@ -5,7 +5,7 @@
 A **CSS** rule set contains a selector and a declaration block.
 ___
 <img src="images/selectors.gif" alt="synatx"/>
-___
+
 * **Selector:** Selector indicates the HTML element you want to style. 
 * **DeclarationBlock:** The declaration block can contain one or more declarations separated by a semicolon.
 * **Property:** A Property is a type of attribute of HTML element. It could be color, border etc.
@@ -23,7 +23,7 @@ There are several different types of selectors in CSS.
 1. **CSS Universal Selector**
 1. **CSS Group Selector**
 
-**1) CSS Element Selector**
+**1. CSS Element Selector**
 * The element selector selects the HTML element by name.
 
 ```
