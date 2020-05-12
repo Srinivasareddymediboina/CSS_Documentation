@@ -74,7 +74,7 @@ The **id selector** selects the id attribute of an HTML element to select a spec
 ### Output:
 ___
 <img src="images/ids.JPG" alt="synatx"/>
-___
+
 
 3. **CSS Class Selector**
 The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.
