@@ -105,6 +105,7 @@ ___
 <img src="images/class.JPG" alt="synatx"/>
 
 4. **CSS Universal Selector**
+
 The universal selector is used as a wildcard character. It selects all the elements on the pages.
 
 ```
