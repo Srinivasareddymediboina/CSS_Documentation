@@ -238,7 +238,7 @@ The internal style sheet is used to add a unique style for a single document. It
 			  margin-left: 40px;
 			}
 			#vis{
-				color: green;
+			  color: green;
 			  text-align: center;
 			  font-size:40px;
 
@@ -246,14 +246,14 @@ The internal style sheet is used to add a unique style for a single document. It
 
 	</style>
 </head>
-	<body>
+<body>
 
 	<h1>Andhra Pradesh State Skill Development Corporation</h1>
 	<h2 id='vis'>Gov of Andhra Padesh</h2>
 	<p>APSSDC, Vijayawada</p>
 
 
-	</body>
+</body>
 </html>
 ```
 
@@ -261,6 +261,61 @@ The internal style sheet is used to add a unique style for a single document. It
 ___
 
 <img src="images/internal.JPG" alt="inline"/>
+
+## External CSS
+
+**External CSS:** External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). 
+
+* The external .css file should not contain any HTML tags.
+
+
+
+**Example:**
+
+Here is how the **styles.css** file looks like
+
+```
+body {
+    background-color:skyblue;
+}
+.sdc {
+    text-align:center;   
+}
+.APSSDC {
+    color:orange;
+    font-size:50px;
+    font-weight:bold;
+}
+#vis {
+    font-style:bold;
+    font-size:30px;
+}
+```
+
+* CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag.
+
+```
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="styles.css"/> 
+    </head> 
+  
+    <body> 
+        <div class = "sdc"> 
+            <div class ="APSSDC">Web Development Team</div> 
+            <div id ="vis"> 
+                APSSDC,Vijayawada
+            </div> 
+        </div> 
+    </body> 
+</html> 
+```
+### Output:
+___
+<img src="images/external.JPG" alt="synatx"/>
+
+
 
 
 
