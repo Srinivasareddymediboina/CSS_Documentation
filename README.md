@@ -172,3 +172,6 @@ h1, h2, p {
 </body>  
 </html>
 ```
+### Output:
+___
+<img src="images/group.JPG" alt="synatx"/>
