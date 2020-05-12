@@ -10,7 +10,9 @@ ___
 * **DeclarationBlock:** The declaration block can contain one or more declarations separated by a semicolon.
 * **Property:** A Property is a type of attribute of HTML element. It could be color, border etc.
 * **Value:** Values are assigned to CSS properties. In the above example, value "yellow" is assigned to color property.
+
 ### CSS Selectors
+
 * **CSS selectors** are used to select the content you want to style. 
 * **CSS selectors** select HTML elements according to its **id, class, type, attribute** etc.
 
@@ -24,6 +26,7 @@ There are several different types of selectors in CSS.
 1. **CSS Group Selector**
 
 **1. CSS Element Selector**
+
 * The element selector selects the HTML element by name.
 
 ```
@@ -50,6 +53,7 @@ ____
 <img src="images/el.JPG" alt="synatx"/>
 
 **2. CSS Id Selector**
+
 The **id selector** selects the id attribute of an HTML element to select a specific element. And it is chosen to select a single, **unique** element.
 
 * It is written with the hash character (#)
@@ -77,6 +81,7 @@ ___
 
 
 3. **CSS Class Selector**
+
 The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.
 
 **Note:A class name should not be started with a number.**
@@ -134,6 +139,7 @@ ___
 
 
 5. **The CSS Universal Selector**
+
 * The universal selector **(*)** selects all HTML elements on the page.
 
     * Let's see the CSS code without group selector.
@@ -179,6 +185,7 @@ ___
 <img src="images/group.JPG" alt="synatx"/>
 
 ## Kinds of CSS
+
 There are three ways to insert CSS in HTML documents.
 
 * Inline CSS
