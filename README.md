@@ -147,23 +147,23 @@ The grouping selector is used to select all the elements with the same style def
 
 ```
 h1 {  
-    text-align: center;  
-    color: green;
+   text-align: center;  
+    color: blue;
     font-style: bold;
-     background: #AAFA54
+    background: #AAFA54;
      
 }  
 h2 {  
-    text-align: center;  
-    color: green;
+   text-align: center;  
+    color: blue;
     font-style: bold;
-     background: #AAFA54
+    background: #AAFA54;
 }  
 p {  
-    text-align: center;  
-    color: green;
+   text-align: center;  
+    color: blue;
     font-style: bold;
-     background: #AAFA54
+    background: #AAFA54;
 } 
 ``` 
 **Example Program**
