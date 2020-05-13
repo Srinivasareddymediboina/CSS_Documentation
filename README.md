@@ -38,6 +38,7 @@ p{
     text-align: center;  
     color: green;
     font-size: 35px;
+    background: #F3B9FB;
 }   
 </style>  
 </head>  
@@ -50,7 +51,7 @@ p{
 ```
 ### Output:
 ____
-<img src="images/el.JPG" alt="synatx"/>
+<img src="images/elements.JPG" alt="synatx"/>
 
 ### 2. CSS Id Selector
 
@@ -66,10 +67,13 @@ The **id selector** selects the id attribute of an HTML element to select a spec
     text-align: center;  
     color: red;
     font-size: 40px;
-}  
+}
+#colors{
+	background: #F3CF80;
+}
 </style>  
 </head>  
-<body>  
+<body id='colors'>  
 <p id="para1">Hello EveryOne..!</p>  
 <p>Welcome to Frontend CSS Class.</p>  
 </body>  
@@ -77,7 +81,7 @@ The **id selector** selects the id attribute of an HTML element to select a spec
 ```
 ### Output:
 ___
-<img src="images/ids.JPG" alt="synatx"/>
+<img src="images/idss.JPG" alt="synatx"/>
 
 
 ### 3.CSS Class Selector
@@ -107,7 +111,7 @@ The class selector selects HTML elements with a specific class attribute. It is 
 ```
 ### Output:
 ___
-<img src="images/class.JPG" alt="synatx"/>
+<img src="images/cla.JPG" alt="synatx"/>
 
 ### 4.CSS Universal Selector
 
@@ -120,9 +124,10 @@ The universal selector is used as a wildcard character. It selects all the eleme
 <style>  
 * {  
     text-align: left;  
-    color: red;
+    color: blue;
     font-size: 35px;
     font-style: bold;
+    background: #FB7D3A ;
 
 }  
 </style>  
@@ -135,7 +140,7 @@ The universal selector is used as a wildcard character. It selects all the eleme
 ```
 ### Output:
 ___
-<img src="images/universal.JPG" alt="synatx"/>
+<img src="images/u.JPG" alt="synatx"/>
 
 
 ### 5. CSS Group Selector
