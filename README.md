@@ -343,7 +343,7 @@ The Some of properties is given below.
 
 * This css code is writen in .css file ex:**styles.css**
 ```
-.c{
+.child{
 	color: yellow;
 	width: 80%;
 	border: 1px outset #ddd;
@@ -387,7 +387,7 @@ The Some of properties is given below.
   
     <body> 
         
-            <div class ="c">APSSDC, Web Development Team</div> 
+            <div class ="child">APSSDC, Web Development Team</div> 
             <div id ="vis"> Organized by Gov of AP</div>
         
     </body> 
