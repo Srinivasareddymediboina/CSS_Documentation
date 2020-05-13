@@ -1,7 +1,7 @@
 # CSS_Documentation
 ## What is CSS?
 **CSS** stands for Cascading Style Sheets. Which is used to describe the look and formatting of a document written in markup language, **CSS** allows you to apply styles to web pages.
-### CSS Syntax
+## CSS Syntax
 A **CSS** rule set contains a selector and a declaration block.
 ___
 <img src="images/selectors.gif" alt="synatx"/>
@@ -11,7 +11,7 @@ ___
 * **Property:** A Property is a type of attribute of HTML element. It could be color, border etc.
 * **Value:** Values are assigned to CSS properties. In the above example, value "yellow" is assigned to color property.
 
-### CSS Selectors
+## CSS Selectors
 
 * **CSS selectors** are used to select the content you want to style. 
 * **CSS selectors** select HTML elements according to its **id, class, type, attribute** etc.
@@ -25,7 +25,7 @@ There are several different types of selectors in CSS.
 1. **CSS Universal Selector**
 1. **CSS Group Selector**
 
-**1. CSS Element Selector**
+### 1. CSS Element Selector
 
 * The element selector selects the HTML element by name.
 
@@ -52,7 +52,7 @@ p{
 ____
 <img src="images/el.JPG" alt="synatx"/>
 
-**2. CSS Id Selector**
+### 2. CSS Id Selector
 
 The **id selector** selects the id attribute of an HTML element to select a specific element. And it is chosen to select a single, **unique** element.
 
@@ -80,7 +80,7 @@ ___
 <img src="images/ids.JPG" alt="synatx"/>
 
 
-3. **CSS Class Selector**
+### 3.CSS Class Selector
 
 The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.
 
@@ -109,7 +109,7 @@ The class selector selects HTML elements with a specific class attribute. It is 
 ___
 <img src="images/class.JPG" alt="synatx"/>
 
-4. **CSS Universal Selector**
+### 4.CSS Universal Selector
 
 The universal selector is used as a wildcard character. It selects all the elements on the pages.
 
@@ -138,7 +138,7 @@ ___
 <img src="images/universal.JPG" alt="synatx"/>
 
 
-## 5. CSS Group Selector
+### 5. CSS Group Selector
 
 The grouping selector is used to select all the elements with the same style definitions.
 
@@ -200,7 +200,7 @@ There are three ways to insert CSS in HTML documents.
 * Internal CSS (or) Embedded CSS
 * External CSS
 
-## 1. Inline CSS
+### 1. Inline CSS
 
 **Inline CSS** is used to apply **CSS** on a single line or element.
 
@@ -234,7 +234,7 @@ There are three ways to insert CSS in HTML documents.
 ___
 <img src="images/inlines.JPG" alt="inline"/>
 
-## 2.Internal CSS (or) Embedded CSS
+### 2.Internal CSS (or) Embedded CSS
 
 The internal style sheet is used to add a unique style for a single document. It is defined in **head** section of the HTML page inside the **style** tag.
 
@@ -278,7 +278,7 @@ ___
 
 <img src="images/internal.JPG" alt="inline"/>
 
-## External CSS
+### External CSS
 
 **External CSS:** External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). 
 
